@@ -1,0 +1,15 @@
+create event "Team Meeting" from 2025-06-15T13:00 to 2025-06-15T14:00
+create event "Meeting" from 2025-06-15T10:00 to 2025-06-15T11:00
+create event Holiday on 2025-06-15
+create nothing
+create event Workshop from 2025-06-16T10:00 to 2025-06-16T11:00 repeats MWF for 3 times
+edit event status Meeting from 2025-06-15T10:00 to 2025-06-15T11:00 with private
+edit event location Meeting from 2025-06-15T10:00 to 2025-06-15T11:00 with "Room 101"
+edit event description Meeting from 2025-06-15T10:00 to 2025-06-15T11:00 with "Weekly check in"
+edit events location Workshop from 2025-06-16T10:00 with "Room 101"
+edit series description Workshop from 2025-06-16T10:00 with "Updated description"
+print events on 2025-06-15
+print events from 2025-06-15T00:00 to 2025-06-15T23:59
+show status on 2025-06-15
+show status on 2020-01-01
+exit
